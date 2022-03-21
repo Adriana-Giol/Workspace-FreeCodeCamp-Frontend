@@ -7,19 +7,27 @@
         <meta name="author" content="Adriana Giol">
         <meta name="description" content="Aceasta pagina contine toate lucrurile pe care le-am invatat despre HTML, cu ajutorul tutoring-ului de la Free Code Camp.">
 
+        <link rel="icon" href="heart.png" type="image/x-icon">
         <title> Prima mea pagina web</title>
-        <link rel="icon" href="icon.png" type="image/x-icon">
-
+    
         <!--Aici se regaseste codul CSS - Codul pentru formatarea vizuala a continutului din bowser-->
-        <link rel="style" href="main.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
 
 <!-- Body contine elementele vizibile in browser-->
     <body>
 
         <h1> Buna, eu sunt Adriana si am inceput sa invat Frontend </h1>
+        
+        <nav>
+            <ul>
+                <li>  <a href="#capitol1"> Capitol 1</a> </li>
+                <li>  <a href="#capitol2"> Capitol 2</a> </li>
+            </ul>
+        </nav>
 
         <hr> 
+        <section id="capitol1">
             <h2> Capitolul 1 - HTML </h2>
                 <p> Aceasta este prima mea pagina web pe care o realizez singura cu ajutorul limbajului HTML.</p>
 
@@ -35,8 +43,11 @@
                     <p>Limbajul HTML a fost inventat in: </p>
                         <address>San Francisco, CA, US, St. Santa Luisa, 77580 </address> 
             
+        </section>
 
         <hr> 
+
+        <section id="capitol2">
             <h2> Capitolul 2 - CSS </h2>
             <p> Stilizez pagina web cu ajutorul limbajului CSS.</p>
 
@@ -54,7 +65,7 @@
                     <!-- Lista neordonata-->
                     <ul>
                         <li> Rosu </li>
-                        <li> Portocaliu </li>
+                        <li> Portocaliu </li>Z
                         <li> Galben </li>
                         <li> Verde</li>
                     </ul>
@@ -72,9 +83,13 @@
                         <dt>MARE </dt>
                         <dd>Dimensiunea mica se refera la faptul ca o imagine poate avea maxim 1024 de pixeli.</dd>
                     </dl>
+        </section>
+
         <hr>
-        &lt;&lt;&lt; &copy; Adriana Giol &gt;&gt;&gt;        
 
-
+        &lt;&lt;&lt; &copy; <a href="https://www.linkedin.com/in/adriana-giol-4a4b3b154/"> Linkedin </a> - <a href = "about.html"> Adriana Giol</a>&gt;&gt;&gt;    
+        
+        <!-- Intoarcere in susul paginii-->
+        <a href="#">Inapoi sus!</a>
     </body>
 </html>

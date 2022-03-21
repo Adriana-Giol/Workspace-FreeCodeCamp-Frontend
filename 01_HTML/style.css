@@ -1,0 +1,13 @@
+html{
+    font-size: 20px
+}
+body{
+    background-color: brown;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+a:visited{
+    color: yellow
+}
